@@ -66,3 +66,15 @@ h2{
 
 .menu a{
     color:black !important;
+}
+#vk{
+    width: 400px;
+    height: 500px;
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;
+    margin-right: 40px;
+}
+#insp {
+    background-color: aqua;
+    height: 100%
+}
