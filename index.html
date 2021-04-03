@@ -1,74 +1,190 @@
+<!DOCTYPE html>
 <html>
 
 <head>
-    <title> MFH </title>
+    <title>Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <ul class="menu">
-        <li class="links"><a href="#home">HOME</a></li>
-        <li class="links"><a href="#videos">VIDEOS</a></li>
-        <li class="links"><a href="#inspiration">INSPIRATION</a></li>
-        <li class="links"><a href="#contact">CONTACT</a></li>
-    </ul>
-    <section id="wc">
-        <div>
-            <img id="CR" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT_IHFvKqSDoT6JyVasro_tMW4YUwZAxWX_4Q&usqp=CAU" />
+
+    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Ryan International School</a>
         </div>
-        <h1> My Favourite Hobby <br><br> Cricket </h1>
-    </section>
 
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#campus_life">Campus Life</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#new">What's New</a></li>
+                <li><a href="#alumni">Alumni</a></li>
+                <li><a href="#contactUs">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
 
+    <div class="announcement">
+        <marquee id="marqueeStyle" onmouseover="this.stop();" onmouseout="this.start();">
+            *** Feel free to ask queries on ryan.chembur@ryangroup.org ***
+        </marquee>
+    </div>
 
+    <iframe id="video" src="https://www.youtube.com/embed/RShWDZBAvw0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="page-header" id="campus_life">
+        <h2 class="text-capitalize">Campus Life</h2>
+    </div>
+    <div id="blah">
+        <div class="travel_mainDiv">
+            <img id="sa" class="img-responsive" src="audit.png">
+            <h4 class="text-capitalize"><kbd>School Auditorium</kbd></h4>
 
-    <section id="info">
-        <br>
-        <br>
-        <h1> About </h1>
-        <div class="line"></div>
-        <p> Cricket is a bat-and-ball game played between two teams of eleven players on a field at the centre of which is a 22-yard (20-metre) pitch with a wicket at each end, each comprising two bails balanced on three stumps. The batting side scores runs by striking the ball bowled at the wicket with the bat (and running between the wickets), while the bowling and fielding side tries to prevent this (by preventing the ball from leaving the field, and getting the ball to either wicket) and dismiss each batter (so they are "out"). Means of dismissal include being bowled, when the ball hits the stumps and dislodges the bails, and by the fielding side either catching the ball after it is hit by the bat, but before it hits the ground, or hitting a wicket with the ball before a batter can cross the crease in front of the wicket. When ten batters have been dismissed, the innings ends and the teams swap roles. The game is adjudicated by two umpires, aided by a third umpire and match referee in international matches. They communicate with two off-field scorers who record the match's statistical information.
-        </p>
-    </section>
+            <hr>
 
-
-    <section id="videos">
-        <h1> Videos </h1>
-        <div class="line"></div>
-        <br>
-        <iframe width="1200" height="400" src="https://www.youtube.com/embed/AFEZzf9_EHk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <br>
-        <br>
-        <iframe id="IND vs SA" width="1200" height="400" src="https://www.youtube.com/embed/amMJfaB5dXo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </section>
-
-    <section id="inspiration">
-        <h1> Inspiration </h1>
-        <div class="line"></div>
-        <br> <br> <br> <br> <br> <br>
-        <a href="https://en.wikipedia.org/wiki/Virat_Kohli" target="_blank">
-            <img id="vk" src="https://images.indianexpress.com/2017/11/virat-kohli-2-pti.jpg">
-        </a>
-        <a href="https://en.wikipedia.org/wiki/MS_Dhoni" target="_blank">
-            <img id="vk" src="https://tse2.mm.bing.net/th?id=OIP.lTbRGTg6xsmMeRTHVrNH_gHaJ4&pid=Api&P=0&w=300&h=300">
-        </a>
-
-
-    </section>
-    <section id="contact">
-        <h1> Contact </h1>
-        <div class="line"></div>
-        <br> <br> <br>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3771.594289791799!2d72.9384215!3d19.0375912!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c5d7237aa593%3A0xf6298d9231eea200!2sTMC%20Staff%20Quarters!5e0!3m2!1sen!2sin!4v1617278044267!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        <div class="contact_1">
-
-            <a href="mailto:my@gmail.com?Subject=Hi">
-                <h5 id="gg"><i class="fa fa-envelope"></i>&nbsp;&nbsp;ekinpal2510@gmail.com</h5>
-            </a>
-
-            
+            <p class="text-muted text-left">Ryan Internation school has a huge Auditorium that is located at the 7th floor of the building. The Auditorium has a seating capacity of around 125-150 people.The stage area is of sufficient size to host number of stage sets for musical and dramatic performances. The offstage areas can be readily accessible to adequate dressing room space. The Audtorium also has the rehearsal rooms for chorus, orchestra, and band In close proximity to the stage in order to facilitate the preparation for rehearsals, concerts, and recitals.Mega events like Graduation day, annual day, and many interactive sessions are conducted here.</p>
         </div>
 
 
+        <br><br>
 
-    </section>
+        <center>
+            <div class="travel_mainDiv">
+                <img id="gg" class="img-responsive" src="liabrary.png">
+
+                <h4 class="text-capitalize"><kbd>School library</kbd></h4>
+
+                <hr>
+
+                <p class="text-muted text-left">The School Library is located on the 2nd floor of the building. The library has a seating capacity of 50 students. There is a cheif librarian who looks to the working of library.There are many books in the library. We share the books with our parteners after we finish reading them. It is fun reading in the library. </p>
+            </div>
+        </center>
+
+        <br><br>
+
+        <center>
+            <div class="travel_mainDiv">
+                <img id="k" class="img-responsive" src="cl.png">
+
+                <h4 class="text-capitalize"><kbd>School Chemistry Lab</kbd></h4>
+
+                <hr>
+
+                <p class="text-muted text-left">The School Chemistry Lab is located at the 3rd floor of the building. It has many burners, diagrams, chemicals and a skeleton.I once visited with my friends in 4th standard and saw the states of matters. </p>
+            </div>
+    </div>
+
+    <div class="page-header" id="achievements">
+        <h2 class="text-capitalize">Achivements</h2>
+    </div>
+
+    <div class="bg-primary movie_head" data-toggle="collapse" data-target="#avengers_endgame">
+        <span class="glyphicon glyphicon-film"></span> <i class="fa fa-sort-desc"></i> Samson Daniel Award
+    </div>
+
+    <div id="avengers_endgame" class="collapse">
+
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+            <img id="e" src="samsondanielaward%20.png" class="img-responsive img-thumbnail">
+        </div>
+
+        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+            <h5 id="pr" class="text-success text-left text-capitalize">Samson Daniel Award
+
+            </h5>
+            <p id="para">Ryan International Group was awarded the prestigious 'Samson Daniel Award' this year for commendable contribution to the cause of the elders of the society, at the awards ceremony organized by HelpAge India on the International Day of Older Persons. The award was presented by Dr. Vinod K Paul, Member NITI Aayog and accepted by Dr. Snehal Pinto, Director, Ryan Group.</p>
+        </div>
+
+    </div>
+
+    <div class="bg-primary movie_head" data-toggle="collapse" data-target="#the_lion_king">
+        <span class="glyphicon glyphicon-film"></span> Prominent Change Makers Under The Age Of 40
+    </div>
+
+    <div id="the_lion_king" class="collapse">
+
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+            <img id="e" src="jk.png" class="img-responsive img-thumbnail">
+        </div>
+
+        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+            <h5 id="pr" class="text-success text-left text-capitalize">Prominent Change Makers Under The Age Of 40
+
+            </h5>
+            <p id="para">Ryan Pinto was recognized as one of the brightest young Entrepreneurs, Innovators and Game Changers under the age of 40 and awarded the elite 'BW Businessworld 40 UNDER 40 Club of Achievers 2019’ award by Business World Magazine.</p>
+        </div>
+    </div>
+
+
+
+    <div class="bg-primary  movie_head" data-toggle="collapse" data-target="#Frozen_2">
+        <span class="glyphicon glyphicon-film"></span> Preschool Grand Jury Awards 2019-20<i class="fa fa-sort-desc"></i>
+    </div>
+
+    <div id="Frozen_2" class="collapse">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+            <img id="e" src="bpgja.png" class="img-responsive img-thumbnail">
+        </div>
+
+        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+            <h5 id="pr" class="text-success text-left text-capitalize">Preschool Grand Jury Awards 2019-20
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+            </h5>
+            <p id="para">The 7 of Ryan International Schools received prestigious awards from Education World India at ‘Preschool Grand Jury Awards 2019-20’.</p>
+        </div>
+    </div>
+    <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="new">
+        <h2 class="text-capitalize ">What's New</h2>
+    </div>
+
+    <ul class="list-group">
+
+        <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
+            <h4>School Auditorium</h4>
+            <img src="audit.png" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+            <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">Ryan Internation school has a huge Auditorium that is located at the 7th floor of the building. The Auditorium has a seating capacity of around 125-150 people.The stage area is of sufficient size to host number of stage sets for musical and dramatic performances. The offstage areas can be readily accessible to adequate dressing room space. The Audtorium also has the rehearsal rooms for chorus, orchestra, and band In close proximity to the stage in order to facilitate the preparation for rehearsals, concerts, and recitals.Mega events like Graduation day, annual day, and many interactive sessions are conducted here.</p>
+        </li>
+
+
+
+        <div class="container">
+            <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="contactUs">
+                <h2 class="text-capitalize ">Contact Us</h2>
+            </div>
+
+            <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15078.353856082635!2d72.8906491!3d19.1257017!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xacf72f56793d190a!2sWHITEHAT%20EDUCATION%20TECHNOLOGY%20PVT%20LTD!5e0!3m2!1sen!2sin!4v1573468987088!5m2!1sen!2sin" height="450" frameborder="0" allowfullscreen=""></iframe>
+            </div>
+            <div id="details">
+                <img src="https://i.postimg.cc/RZMSc6hR/sp.png" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+                <h3>Principal Name: </h3>
+                <h4>Mr.Xavier John Dcosta </h4>
+                <div class="contact_1">
+                    <a href="mailto:school@gmail.com?Subject=Hi">
+                        <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;school@gmail.com</h5>
+                    </a>
+                    <a href="#">
+                        <h5><i class="fa fa-instagram"></i>&nbsp;&nbsp;schoolId</h5>
+                    </a>
+                    <a href="#">
+                        <h5><i class="fa fa-phone-square"></i>&nbsp;&nbsp;9916001600</h5>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="footer"></div>
+</body>
+
+</html>

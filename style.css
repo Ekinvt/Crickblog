@@ -1,87 +1,102 @@
-body{
-    text-align: center;
-    
+#map iframe
+{
+    width: 50%;
+    float: left;
+    padding-top: 5px;
 }
 
-#CR{
-  width:200px;
-  height:200px;
-border-radius: 50%;
-    margin-left: 55px;
+.contact_1 h3
+{
+    display: inline;
+}
+.contact_1 a
+{
+    text-shadow: none;
+}
+#footer{
+  height: 20px;
+  background-color:white;
+  }
 
-}
-
-
-#wc{
-     padding:70px;
-    text-align:center;
-    height: 31%;
-    background: linear-gradient( #4287f5 0%,#4bf542 100%);
-}
-h1{
-  font-family: 'Courgette', cursive;
-  font-size:25px;
-}
-p{
-  font-size:18px;
-  color:#6A1B9A;
-    
-}
-h2{
-  font-size:20px
-  color:#003487;
-}
-.line{
-    height: 6px;
-    background-color: black;
-    width:70px;
-    margin:8px auto;
-}
-#info{
-    padding:20px;
-    font-size:18;
-    background:pink;
-    height: 50%;
-    
-}
-#videos{
-    background: linear-gradient( #4287f5 0%,#4bf542 100%);    
-}
-#IND vs SA {
-    margin-bottom: 10
-    
+input
+{
+    background: grey
 }
 
-
-.menu{
-   list-style: none;
-    font-family:cursive;
-   float:right;
-    top:10px;
-    right:30px;
-    cursor: pointer;
-    color:black;
-    display: inline-block
+.announcement{
+background-color:#337ab7;
+width: 100%;
+height: 30px;
 }
 
-.menu a{
-    color:black !important;
+#marqueeStyle{
+  width:100%;
+  direction:right;
+  height:100px;
+  background color:aqua;
+  font-size:120%;
 }
-#vk{
-    width: 400px;
-    height: 500px;
-    transition: transform .2s;
-    border: 10px solid #AAAAAA;
-    margin-right: 40px;
+
+#video{
+  width:100%;
+  height:890px;
+  border: none;
 }
-#inspiration {
-    background-color: aqua;
-    height: 850px;
+.travel_mainDiv {
+    border: 1px solid #c7c7c7;
+    padding-left: 0px;
+    padding-right: 0px;
+    float: none
+}
+
+.travel_mainDiv img {
+    width: 100%;
+}
+
+.travel_mainDiv hr {
+    width: 230px;
+}
+
+.travel_mainDiv h5,
+.travel_mainDiv p {
+    margin-left: 20px;
+}
+#sa {
+  height: 250px;
+    width: 500px;
 }
 #gg {
-    font-style: pacifico;
+    height: 400px;
+    width: 400px;
+}
+#k {
+    height: 300px;
+    width: 500px;
+}
+    
+.movie_head {
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+
+.movie_head i {
+    float: right;
+}
+
+.movie_text span {
+    color: #ff7700;
+}
+#para{
+    font-size: 22px;
+}
+#pr {
     font-size: 20px;
 }
-#contact {
-    height: 750px;
+#e {
+    height: 400px;
 }
+
